@@ -1,1 +1,1 @@
-# guchis-guchis.github.io
+# guchis.github.io
