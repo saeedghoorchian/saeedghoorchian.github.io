@@ -69,8 +69,8 @@ a:visited {
   outline: none
 } */
 a:hover {
-  text-decoration: none;
   color: #1B2631;
+  text-decoration: none;
 }
 a:active {
   text-decoration: none;
