@@ -59,7 +59,7 @@ strong {
 } */
 a {
   color: #34495E;
-  text-decoration: none!important;
+/*   text-decoration: none!important; */
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -207,18 +207,18 @@ a:active {
 .icons {
   margin: 2px 0;
   padding: 0;
-/*   display: block; */
+  display: none;
 }
 .icons li {
-/*   display: block; */
+  display: none;
   margin: 0 2px;
 }
 .icons li a {
-/*   display: inline-block; */
+  display: none;
   font-size: 15px;
-/*   width: 30px;
+  width: 30px;
   height: 30px;
-  line-height: 31px; */
+  line-height: 31px;
   text-align: center;
   color: #FFFFFF;
   border-radius: 6px;
@@ -249,7 +249,7 @@ a:active {
   margin-bottom: 20px;
 }
 .publications .publications-item .title {
-  color: #1B2631;
+/*   color: #1B2631; */
   font-weight: 500;
   margin-bottom: 3px;
 }
