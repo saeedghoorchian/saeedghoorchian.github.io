@@ -216,9 +216,9 @@ a:active {
 .icons li a {
   display: inline-block;
   font-size: 15px;
-  width: 30px;
+/*   width: 30px;
   height: 30px;
-  line-height: 31px;
+  line-height: 31px; */
   text-align: center;
   color: #FFFFFF;
   border-radius: 6px;
