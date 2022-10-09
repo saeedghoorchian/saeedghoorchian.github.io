@@ -55,19 +55,25 @@ strong {
 } */
 a:link {
   color: #34495E;
-/*   text-decoration: none;
-  -webkit-transition: all 0.3s ease 0s;
+  text-decoration: none;
+/*   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; */
+}
+a:visited {
+  text-decoration: none;
 }
 /* a, a:active, a:focus, a:active {
   text-decoration: none;
   outline: none
 } */
 a:hover, a:focus {
-/*   text-decoration: none; */
+  text-decoration: none;
   color: #1B2631;
+}
+a:active {
+  text-decoration: none;
 }
 
 /* .bib {
