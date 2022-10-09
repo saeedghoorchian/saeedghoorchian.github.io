@@ -68,7 +68,7 @@ a:visited {
   text-decoration: none;
   outline: none
 } */
-a:hover, a:focus {
+a:hover {
   text-decoration: none;
   color: #1B2631;
 }
