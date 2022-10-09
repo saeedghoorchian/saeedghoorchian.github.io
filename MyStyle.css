@@ -19,6 +19,42 @@ body {
   background: #f8f8f8;
 }
 
+
+/* Navbar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #34495E;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: right;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #1B2631;
+}
+/* 
+.active {
+  background-color: #4CAF50;
+} */
+
+
 /* Text */
 h1, h2 {
   margin: 0 0 15px;
@@ -221,7 +257,7 @@ a:active {
   margin-bottom: 20px;
 }
 .publications-wrapper .publications-item .title {
-/*   color: #1B2631; */
+  color: #1B2631;
   font-weight: 500;
   margin-bottom: 3px;
 }
