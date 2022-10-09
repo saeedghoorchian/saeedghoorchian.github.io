@@ -146,6 +146,10 @@ a:hover {
   }
 }
 
+.img-responsive {  
+  width: 100%;  
+  height: auto; 
+} 
 
 /* header */
 .header {
@@ -156,8 +160,6 @@ a:hover {
 }
 .header .profile-img {
   margin-bottom: 30px;
-  width: 100%;  
-  height: auto;
 }
 .header .name {
   margin-bottom: 15px;
