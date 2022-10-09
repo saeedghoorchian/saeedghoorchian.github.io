@@ -1,13 +1,13 @@
 
 /* This is my Style Sheet */
 
-/*
-  Color codes
+/* Colors
   - body (text)     #3a4750
-  - heading         #444444
-  - theme (links)   #01ad54
-  - link hover      #006832
+  - heading         #1B2631
+  - theme (links)   #34495E
+  - link hover      #1B2631
   - sections        #bbbbbb
+  - Background      #FFFFFF
 */
 
 body {
@@ -19,12 +19,10 @@ body {
   background: #f8f8f8;
 }
 
-/* ----------------------------------------------
- * global typography
- * ---------------------------------------------- */
-h1, h2, h3, h4, h5, h6 {
+/* Text */
+h1, h2 {
   margin: 0 0 15px;
-  color: #444444;
+  color: #1B2631;
 }
 h1 {
   font-family: 'Fjalla One', sans-serif;
@@ -38,38 +36,17 @@ h2 {
   line-height: 1.8em;
   font-weight: 700;
 }
-h3 {
-  font-size: 13px;
-  line-height: 1.8em;
-  font-weight: 700;
-}
-h4 {
-  font-size: 15px;
-  line-height: 1.8em;
-  font-weight: 500;
-}
-h5 {
-  font-size: 15px;
-  line-height: 1.5em;
-  font-weight: 500;
-}
-h6 {
-  font-size: 15px;
-  line-height: 1.5em;
-}
 p {
   margin-bottom: 20px;
 }
 strong {
-  color: #444444;
+  color: #1B2631; 
   font-weight: 500;
 }
 
-/* ----------------------------------------------
- * link style
- * ---------------------------------------------- */
+/* Links */
 a {
-  color: #01ad54;
+  color: #34495E;
   text-decoration: none;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -82,18 +59,17 @@ a, a:active, a:focus, a:active {
 }
 a:hover, a:focus {
   text-decoration: none;
-  color: #006832;
+  color: #1B2631;
 }
 
-.bib {
+/* .bib {
   display: none;
-  background: #fff;
+  background: #FFFFFF;
   font-family: Consolas, "Courier New";
-}
+} */
 
-/* ----------------------------------------------
- * main wrapper
- * ---------------------------------------------- */
+
+/* main wrapper */
 #main-wrapper {
   overflow: hidden;
 }
@@ -101,9 +77,8 @@ a:hover, a:focus {
   max-width: 850px;
 }
 
-/* ----------------------------------------------
- * section wrapper
- * ---------------------------------------------- */
+
+/* section wrapper */
 .section-wrapper {
   padding: 30px 0;
 }
@@ -125,7 +100,7 @@ a:hover, a:focus {
   font-family: 'Fjalla One', sans-serif;
   padding-right: 15px;
   text-align: right;
-  border-right: 3px solid #01ad54;
+  border-right: 3px solid #34495E;
 }
 .section-title h2 {
   font-size: 14px;
@@ -145,14 +120,13 @@ a:hover, a:focus {
   }
 }
 
-/* ----------------------------------------------
- * navigation and header style
- * ---------------------------------------------- */
+
+/* navigation and header style */
 .header {
   padding: 40px 0 30px 0;
   margin: 0;
   position: relative;
-  border-top: 7px solid #01ad54;
+  border-top: 7px solid #34495E;
 }
 .header .profile-img {
   margin-bottom: 20px;
@@ -166,7 +140,7 @@ a:hover, a:focus {
 }
 .header .name-wrapper h2 {
   font-size: 24px;
-  color: #01ad54;
+  color: #34495E;
   font-weight: 400;
   line-height: 1.4em;
   margin: 0;
@@ -186,9 +160,8 @@ a:hover, a:focus {
   }
 }
 
-/* ----------------------------------------------
- * social icon
- * ---------------------------------------------- */
+
+/*  social icon */
 .social-icon {
   margin: 2px 0;
   padding: 0;
@@ -205,17 +178,16 @@ a:hover, a:focus {
   height: 30px;
   line-height: 31px;
   text-align: center;
-  color: #01ad54;
+  color: #34495E;
   border-radius: 6px;
   border: 1px solid #eee;
 }
 .social-icon li a:hover {
-  color: #006832;
+  color: #1B2631;
 }
 
-/* ----------------------------------------------
- * news
- * ---------------------------------------------- */
+
+/* news */
 .news-wrapper ul {
   margin: 0;
   padding: 0;
@@ -229,14 +201,13 @@ a:hover, a:focus {
   font-weight: 500;
 }
 
-/* ----------------------------------------------
- * publications
- * ---------------------------------------------- */
+
+/*  publications */
 .publications-wrapper .publications-item {
   margin-bottom: 20px;
 }
 .publications-wrapper .publications-item .title {
-  color: #444444;
+  color: #1B2631;
   font-weight: 500;
   margin-bottom: 3px;
 }
@@ -290,9 +261,8 @@ a:hover, a:focus {
   color: rgba(255, 255, 255, .5);
 }
 
-/* ----------------------------------------------
- * contact
- * ---------------------------------------------- */
+
+/* contact */
 .contact-wrapper address strong {
   font-size: 13px;
   text-transform: uppercase;
