@@ -68,7 +68,7 @@ a:active {
 /* Navigation bar */
 .topnav {
   background-color: #34495E;
-  overflow: hidden;
+/*   overflow: hidden; */
 }
 /* Style the links inside the navigation bar */
 .topnav a {
