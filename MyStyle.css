@@ -207,14 +207,14 @@ a:active {
 .icons {
   margin: 2px 0;
   padding: 0;
-  display: block;
+/*   display: block; */
 }
 .icons li {
-  display: block;
+/*   display: block; */
   margin: 0 2px;
 }
 .icons li a {
-  display: inline-block;
+/*   display: inline-block; */
   font-size: 15px;
 /*   width: 30px;
   height: 30px;
