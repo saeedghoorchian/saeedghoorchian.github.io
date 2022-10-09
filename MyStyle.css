@@ -45,20 +45,28 @@ strong {
 }
 
 /* Links */
-a {
+/* a {
   color: #34495E;
   text-decoration: none;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+} */
+a:link {
+  color: #34495E;
+/*   text-decoration: none;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; */
 }
-a, a:active, a:focus, a:active {
+/* a, a:active, a:focus, a:active {
   text-decoration: none;
   outline: none
-}
+} */
 a:hover, a:focus {
-  text-decoration: none;
+/*   text-decoration: none; */
   color: #1B2631;
 }
 
