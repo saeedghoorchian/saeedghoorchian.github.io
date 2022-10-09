@@ -259,8 +259,8 @@ a:active {
 
 
 /* contact */
-/* .contact address strong {
+.contact address strong {
   font-size: 13px;
   text-transform: capitalize;
   font-weight: 500;
-} */
+}
