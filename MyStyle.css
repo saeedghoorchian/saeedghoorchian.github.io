@@ -59,14 +59,14 @@ strong {
 } */
 a {
   color: #34495E;
-  text-decoration: none;
+  text-decoration: none!important;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 a:visited {
-  text-decoration: none;
+  text-decoration: none!important;
 }
 /* a, a:active, a:focus, a:active {
   text-decoration: none;
@@ -74,10 +74,10 @@ a:visited {
 } */
 a:hover {
   color: #1B2631;
-  text-decoration: none;
+  text-decoration: none!important;
 }
 a:active {
-  text-decoration: none;
+  text-decoration: none!important;
 }
 
 
