@@ -6,7 +6,7 @@
   - heading         #1B2631
   - theme (links)   #34495E
   - link hover      #1B2631
-  - sections        #bbbbbb
+  - sections        #30261B
   - Background      #FFFFFF
 */
 
@@ -21,38 +21,6 @@ body {
 
 
 /* Navbar */
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #34495E;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-li {
-  float: right;
-  border-right: 1px solid #bbb;
-}
-
-li a {
-  display: block;
-  color: #FFFFFF;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #1B2631;
-}
-/* 
-.active {
-  background-color: #4CAF50;
-} */
 
 
 /* Text */
@@ -92,10 +60,10 @@ strong {
 a {
   color: #34495E;
   text-decoration: none;
-/*   -webkit-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s; */
+  transition: all 0.3s ease 0s;
 }
 a:visited {
   text-decoration: none;
@@ -128,17 +96,17 @@ a:active {
 }
 
 
-/* section wrapper */
-.section-wrapper {
+/* section */
+.section {
   padding: 30px 0;
 }
 @media (max-width: 768px) {
-  .section-wrapper {
+  .section {
     padding: 20px 0;
   }
 }
 @media (max-width: 600px) {
-  .section-wrapper {
+  .section {
     padding: 20px;
   }
 }
@@ -155,7 +123,7 @@ a:active {
 .section-title h2 {
   font-size: 14px;
   margin-bottom: 5px;
-  color: #bbbbbb;
+  color: #30261B;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: .1rem;
@@ -165,7 +133,7 @@ a:active {
     text-align: left;
   }
   .section-title h2 {
-    font-size: 18px;
+    font-size: 24px;
     margin-bottom: 20px;
   }
 }
@@ -176,19 +144,19 @@ a:active {
   padding: 40px 0 30px 0;
   margin: 0;
   position: relative;
-  border-top: 7px solid #34495E;
+/*   border-top: 7px solid #34495E; */
 }
 .header .profile-img {
-  margin-bottom: 20px;
+  margin-bottom: 26px;
 }
-.header .name-wrapper {
+.header .name {
   margin-bottom: 15px;
 }
-.header .name-wrapper h1 {
+.header .name h1 {
   line-height: 1;
   margin: 0 0 5px;
 }
-.header .name-wrapper h2 {
+.header .name h2 {
   font-size: 24px;
   color: #34495E;
   font-weight: 400;
@@ -238,36 +206,36 @@ a:active {
 
 
 /* news */
-.news-wrapper ul {
+.news ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.news-wrapper li {
+.news li {
   padding-left: 20px; /* with hanging indent */
   text-indent: -20px;
 }
-.news-wrapper li strong {
+.news li strong {
   font-weight: 500;
 }
 
 
 /*  publications */
-.publications-wrapper .publications-item {
+.publications .publications-item {
   margin-bottom: 20px;
 }
-.publications-wrapper .publications-item .title {
+.publications .publications-item .title {
   color: #1B2631;
   font-weight: 500;
   margin-bottom: 3px;
 }
-.publications-wrapper .publications-item .conference {
+/* .publications .publications-item .conference {
   margin-bottom: 3px;
-}
+} */
 
 
 /* contact */
-.contact-wrapper address strong {
+.contact address strong {
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 500;
