@@ -221,7 +221,7 @@ a:active {
   margin-bottom: 20px;
 }
 .publications-wrapper .publications-item .title {
-  color: #1B2631;
+/*   color: #1B2631; */
   font-weight: 500;
   margin-bottom: 3px;
 }
