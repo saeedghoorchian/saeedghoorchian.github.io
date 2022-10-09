@@ -56,11 +56,6 @@ a:visited {
   color: #34495E;
   text-decoration: none!important;
 }
-/* a, a:active, a:focus, a:active {
-  text-decoration: none;
-  outline: none
-} */
-
 a:hover {
   color: #1B2631;
   text-decoration: none!important;
@@ -69,7 +64,6 @@ a:active {
   color: #34495E;
   text-decoration: none!important;
 }
-
 
 /* Navigation bar */
 .topnav {
@@ -81,17 +75,18 @@ a:active {
   float: right;
   color: #FFFFFF;
   text-align: center;
-  padding: 16px 16px;
+  padding: 14px 14px;
   text-decoration: none!important;
   font-size: 15px;
   border-bottom-style: solid;
   border-bottom-color: #FFFFFF;
-  border-bottom-width: 2px;
+/*   border-bottom-width: 2px; */
 }
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #FFFFFF;
-  color: #1B2631;
+/*   background-color: #FFFFFF; */
+  color: #FFFFFF;
+/*   color: #1B2631; */
 }
 /* Add a color to the active/current link */
 /* .topnav a.active {
