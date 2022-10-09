@@ -19,10 +19,6 @@ body {
   background: #f8f8f8;
 }
 
-
-/* Navbar */
-
-
 /* Text */
 h1, h2 {
   margin: 0 0 15px;
@@ -49,34 +45,28 @@ strong {
 }
 
 /* Links */
-/* a {
-  color: #34495E;
-  text-decoration: none;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-} */
 a {
   color: #34495E;
-/*   text-decoration: none!important; */
-  -webkit-transition: all 0.3s ease 0s;
+/*   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; */
 }
 a:visited {
+  color: #34495E;
   text-decoration: none!important;
 }
 /* a, a:active, a:focus, a:active {
   text-decoration: none;
   outline: none
 } */
+
 a:hover {
   color: #1B2631;
   text-decoration: none!important;
 }
 a:active {
+  color: #34495E;
   text-decoration: none!important;
 }
 
