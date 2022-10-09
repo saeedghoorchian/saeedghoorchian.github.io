@@ -91,7 +91,7 @@ a:active {
   float: right;
   color: #FFFFFF;
   text-align: center;
-  padding: 12px 12px;
+  padding: 16px 16px;
   text-decoration: none;
   font-size: 15px;
   border-bottom-style: solid;
@@ -139,15 +139,15 @@ a:active {
  * ---------------------------------------------- */
 .section-title {
   font-family: 'Fjalla One', sans-serif;
-  padding-right: 15px;
+  padding-right: 18px;
   text-align: right;
-  border-right: 3px solid #34495E;
+/*   border-right: 3px solid #34495E; */
 }
 .section-title h2 {
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 5px;
   color: #30261B;
-  text-transform: uppercase;
+  text-transform: capitalize;;
   font-weight: 500;
   letter-spacing: .1rem;
 }
@@ -259,8 +259,8 @@ a:active {
 
 
 /* contact */
-.contact address strong {
+/* .contact address strong {
   font-size: 13px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 500;
-}
+} */
