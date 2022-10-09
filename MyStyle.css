@@ -156,7 +156,6 @@ a:hover {
 }
 .header .profile-img {
   margin-bottom: 30px;
-  sizes: 64x64
 }
 .header .name {
   margin-bottom: 15px;
@@ -237,22 +236,18 @@ a:hover {
   font-weight: 500;
   margin-bottom: 3px;
 }
-.publications .publications-item a {
+.publications a {
   color: #34495E;
-/*   -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s; */
 }
-.publications .publications-item a:visited {
+.publications a:visited {
   color: #34495E;
   text-decoration: none!important;
 }
-.publications .publications-item a:hover {
+.publications a:hover {
   color: #1B2631;
   text-decoration: none!important;
 }
-.publications .publications-item a:active {
+.publications a:active {
   color: #34495E;
   text-decoration: none!important;
 }
