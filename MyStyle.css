@@ -53,7 +53,7 @@ strong {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 } */
-a:link {
+a {
   color: #34495E;
   text-decoration: none;
 /*   -webkit-transition: all 0.3s ease 0s;
@@ -176,27 +176,27 @@ a:active {
 
 
 /*  social icon */
-.social-icon {
+.icons {
   margin: 2px 0;
   padding: 0;
   display: block;
 }
-.social-icon li {
+.icons li {
   display: inline-block;
   margin: 0 2px;
 }
-.social-icon li a {
-  display: block;
-  font-size: 14px;
-  width: 30px;
-  height: 30px;
+.icons li a {
+  display: inline-block;
+  font-size: 16px;
+  width: 35px;
+  height: 35px;
   line-height: 31px;
   text-align: center;
   color: #34495E;
   border-radius: 6px;
   border: 1px solid #eee;
 }
-.social-icon li a:hover {
+.icons li a:hover {
   color: #1B2631;
 }
 
