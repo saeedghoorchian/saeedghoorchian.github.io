@@ -76,10 +76,6 @@ a:hover {
 /*   overflow: hidden; */
 }
 /* Style the links inside the navigation bar */
-.topnav li {
- padding-left:30px;
- padding-right:30px; 
-}
 .topnav a {
   float: left;
   color: #FFFFFF;
@@ -229,6 +225,8 @@ a:hover {
 .icons li {
   display: block;
   margin: 0 2px;
+  padding-left:30px;
+  padding-right:30px; 
 }
 .icons li a {
   display: block;
