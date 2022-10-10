@@ -246,13 +246,15 @@ a:active {
 .icons li a {
   display: block;
   font-size: 20px;
-  width: 0px;
-  height: 0px;
+  width: 10px;
+  height: 10px;
   line-height: 0px;
   text-align: center;
   color: #FFFFFF;
   padding-left: 30px;
   padding-right: 30px; 
+  padding-top: 10px;
+  padding-bottom: 10px:
 /*   border-radius: 6px; */
 /*   border: 1px solid #eee; */
 }
