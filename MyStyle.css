@@ -35,7 +35,7 @@ h1 {
   margin: 0 0 18px;
   color: #30261B;
   font-family: 'Fjalla One', sans-serif;
-  font-size: 34px;
+  font-size: 38px;
   line-height: 1.8em;
   font-weight: 700;
   letter-spacing: .1rem;
@@ -287,10 +287,10 @@ a:active {
   font-weight: 500;
   margin-bottom: 3px;
 }
-.projects a {
+/* .projects a {
   color: #76b5c5;
   text-decoration: none!important;
-}
+} */
 /* .projects a:visited {
   color: #34495E;
   text-decoration: none!important;
