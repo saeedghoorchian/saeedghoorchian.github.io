@@ -32,10 +32,10 @@ h3 {
   color: #eab676;
 } */
 h1 {
+  font-size: 24px;
   margin: 0 0 18px;
   color: #30261B;
   font-family: 'Fjalla One', sans-serif;
-  font-size: 32px;
   line-height: 1.8em;
   font-weight: 700;
   letter-spacing: .1rem;
