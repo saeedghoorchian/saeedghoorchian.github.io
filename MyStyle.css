@@ -229,11 +229,11 @@ a:hover {
   font-size: 20px;
   width: 30px;
   height: 30px;
-  line-height: 31px;
+  line-height: 10px;
   text-align: center;
   color: #FFFFFF;
   border-radius: 6px;
-/*   border: 1px solid #eee; */
+  border: 1px solid #eee;
 }
 .icons li a:hover {
   color: #FFFFFF;
