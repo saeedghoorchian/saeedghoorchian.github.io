@@ -97,7 +97,7 @@ a:active {
   text-align: center;
   padding: 0px 16px;
   text-decoration: none!important;
-  font-size: 15px;
+  font-size: 20px;
 /*   width: 20%; */
 /*   border-bottom-style: solid;
   border-bottom-color: #FFFFFF; */
@@ -245,7 +245,7 @@ a:active {
 }
 .icons li a {
   display: block;
-  font-size: 20px;
+  font-size: 24px;
   width: 10px;
   height: 10px;
   line-height: 0px;
