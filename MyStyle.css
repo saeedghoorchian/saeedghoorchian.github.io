@@ -76,6 +76,10 @@ a:hover {
 /*   overflow: hidden; */
 }
 /* Style the links inside the navigation bar */
+.topnav li {
+ padding-left:30px;
+ padding-right:30px; 
+}
 .topnav a {
   float: left;
   color: #FFFFFF;
@@ -266,10 +270,10 @@ a:hover {
   font-weight: 500;
   margin-bottom: 3px;
 }
-/* .publications a {
+.publications .publications-item .title a {
   color: #34495E;
 }
-.publications a:visited {
+/* .publications a:visited {
   color: #34495E;
   text-decoration: none!important;
 }
