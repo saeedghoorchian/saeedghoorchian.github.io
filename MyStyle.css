@@ -25,7 +25,7 @@ body {
 
 /* Text */
 h1, h2 {
-  margin: 0 0 15px;
+  margin: 0 0 18px;
   color: #30261B;
 }
 h1 {
@@ -80,7 +80,7 @@ a:active {
   float: left;
   color: #FFFFFF;
   text-align: center;
-  padding: 10px 16px;
+  padding: 0px 16px;
   text-decoration: none!important;
   font-size: 15px;
 /*   width: 20%; */
@@ -225,8 +225,8 @@ a:active {
 .icons li {
   display: block;
   margin: 2px 2px;
-  padding-left:30px;
-  padding-right:30px; 
+  padding-left: 30px;
+  padding-right: 30px; 
 }
 .icons li a {
   display: block;
@@ -236,6 +236,8 @@ a:active {
   line-height: 0px;
   text-align: center;
   color: #FFFFFF;
+  padding-left: 30px;
+  padding-right: 30px; 
 /*   border-radius: 6px; */
 /*   border: 1px solid #eee; */
 }
