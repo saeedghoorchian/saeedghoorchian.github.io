@@ -76,14 +76,15 @@ a:hover {
 }
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: right;
+  float: left;
   color: #FFFFFF;
   text-align: center;
-  padding: 10px 16px;
+  padding: 0px 0px;
   text-decoration: none!important;
   font-size: 15px;
-  border-bottom-style: solid;
-  border-bottom-color: #FFFFFF;
+  width: 20%;
+/*   border-bottom-style: solid;
+  border-bottom-color: #FFFFFF; */
 /*   border-bottom-width: 2px; */
 }
 /* Change the color of links on hover */
