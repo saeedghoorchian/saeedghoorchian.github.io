@@ -260,26 +260,27 @@ a:active {
 }
 
 /*  publications */
-.publications .publications-item {
+.projects .projects-item {
   margin-bottom: 20px;
 }
-.publications .publications-item .title {
+.projects .projects-item .title {
 /*   color: #1B2631; */
   font-weight: 500;
   margin-bottom: 3px;
 }
-.publications .publications-item .title a {
-  color: #34495E;
-}
-/* .publications a:visited {
+.projects a {
   color: #34495E;
   text-decoration: none!important;
 }
-.publications a:hover {
+/* .projects a:visited {
+  color: #34495E;
+  text-decoration: none!important;
+}
+.projects a:hover {
   color: #1B2631;
   text-decoration: none!important;
 }
-.publications a:active {
+.projects a:active {
   color: #34495E;
   text-decoration: none!important;
 } */
