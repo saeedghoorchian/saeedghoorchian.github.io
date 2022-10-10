@@ -226,14 +226,14 @@ a:hover {
 }
 .icons li a {
   display: block;
-  font-size: 14px;
+  font-size: 20px;
   width: 30px;
   height: 30px;
   line-height: 31px;
   text-align: center;
   color: #FFFFFF;
   border-radius: 6px;
-  border: 1px solid #eee;
+/*   border: 1px solid #eee; */
 }
 .icons li a:hover {
   color: #FFFFFF;
