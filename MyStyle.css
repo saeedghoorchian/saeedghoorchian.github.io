@@ -299,10 +299,11 @@ a:active {
 .projects .projects-item li strong {
   font-weight: 500;
 }
-/* .projects a {
-  color: #76b5c5;
+.projects a {
+  color: #30261B;
+/*     #76b5c5; */
   text-decoration: none!important;
-} */
+}
 /* .projects a:visited {
   color: #34495E;
   text-decoration: none!important;
