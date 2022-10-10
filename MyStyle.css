@@ -43,8 +43,9 @@ h2 {
 h3 {
   font-size: 16px;
   color: #eab676;
-  line-height: 1.8em;
-  font-weight: 700;
+  text-transform: capitalize;;
+  font-weight: 500;
+  letter-spacing: .1rem;
 }
 p {
   margin-bottom: 20px;
