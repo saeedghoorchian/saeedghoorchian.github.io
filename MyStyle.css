@@ -24,14 +24,16 @@ body {
 }
 
 /* Text */
-h1, h2 {
+/* h1, h2 {
   margin: 0 0 18px;
   color: #30261B;
 }
 h3 {
   color: #eab676;
-}
+} */
 h1 {
+  margin: 0 0 18px;
+  color: #30261B;
   font-family: 'Fjalla One', sans-serif;
   font-size: 34px;
   line-height: 1.8em;
@@ -39,6 +41,8 @@ h1 {
   letter-spacing: .1rem;
 }
 h2 {
+  margin: 0 0 18px;
+  color: #30261B;
   font-size: 20px;
   line-height: 1.8em;
   font-weight: 700;
