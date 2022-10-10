@@ -16,7 +16,7 @@ img {
 
 body {
   font-family: 'Hind', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.8em;
   color: #EAECEE;
   font-weight: 300;
@@ -30,13 +30,13 @@ h1, h2 {
 }
 h1 {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 38px;
+  font-size: 34px;
   line-height: 1.8em;
   font-weight: 700;
   letter-spacing: .1rem;
 }
 h2 {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.8em;
   font-weight: 700;
 }
@@ -80,7 +80,7 @@ a:active {
   float: left;
   color: #FFFFFF;
   text-align: center;
-  padding: -5px 16px;
+  padding: 10px 16px;
   text-decoration: none!important;
   font-size: 15px;
 /*   width: 20%; */
@@ -224,7 +224,7 @@ a:active {
 }
 .icons li {
   display: block;
-  margin: 0 2px;
+  margin: 2px 2px;
   padding-left:30px;
   padding-right:30px; 
 }
