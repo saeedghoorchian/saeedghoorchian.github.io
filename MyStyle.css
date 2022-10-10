@@ -79,7 +79,7 @@ a:hover {
   float: right;
   color: #FFFFFF;
   text-align: center;
-  padding: 14px 14px;
+  padding: 10px 10px;
   text-decoration: none!important;
   font-size: 15px;
   border-bottom-style: solid;
@@ -235,7 +235,7 @@ a:hover {
   border-radius: 6px;
   border: 1px solid #eee;
 }
-.social-icon li a:hover {
+.icons li a:hover {
   color: #FFFFFF;
 }
 
