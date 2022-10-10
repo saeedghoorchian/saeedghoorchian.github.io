@@ -10,9 +10,13 @@
   - Background      #FFFFFF
 */
 
+img {
+  border-radius: 50%;
+}
+
 body {
   font-family: 'Hind', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.8em;
   color: #EAECEE;
   font-weight: 300;
@@ -52,10 +56,10 @@ a {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; */
 }
-a:visited {
+/* a:visited {
   color: #34495E;
   text-decoration: none!important;
-}
+} */
 a:hover {
   color: #1B2631;
   text-decoration: none!important;
@@ -145,11 +149,6 @@ a:hover {
     margin-bottom: 20px;
   }
 }
-
-.img-responsive {  
-  width: 100%;  
-  height: auto; 
-} 
 
 /* header */
 .header {
