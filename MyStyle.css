@@ -16,7 +16,7 @@ img {
 
 body {
   font-family: 'Hind', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.8em;
   color: #EAECEE;
   font-weight: 300;
@@ -30,13 +30,13 @@ h1, h2 {
 }
 h1 {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 36px;
+  font-size: 38px;
   line-height: 1.8em;
   font-weight: 700;
   letter-spacing: .1rem;
 }
 h2 {
-  font-size: 18px;
+  font-size: 24px;
   line-height: 1.8em;
   font-weight: 700;
 }
@@ -64,10 +64,10 @@ a:hover {
   color: #1B2631;
   text-decoration: none!important;
 }
-/* a:active {
+a:active {
   color: #34495E;
   text-decoration: none!important;
-} */
+}
 
 /* Navigation bar */
 .topnav {
@@ -80,7 +80,7 @@ a:hover {
   float: left;
   color: #FFFFFF;
   text-align: center;
-  padding: 0px 16px;
+  padding: -5px 16px;
   text-decoration: none!important;
   font-size: 15px;
 /*   width: 20%; */
