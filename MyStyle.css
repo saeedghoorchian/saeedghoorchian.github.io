@@ -287,16 +287,16 @@ a:active {
   font-weight: 500;
   margin-bottom: 3px;
 }
-.projects .projects-item ul {
+.projects ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.projects .projects-item li {
+.projects li {
   padding-left: 20px; /* with hanging indent */
   text-indent: -20px;
 }
-.projects .projects-item li strong {
+.projects li strong {
   font-weight: 500;
 }
 .projects a {
