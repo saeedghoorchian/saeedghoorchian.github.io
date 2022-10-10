@@ -28,6 +28,9 @@ h1, h2 {
   margin: 0 0 18px;
   color: #30261B;
 }
+h3 {
+  color: #eab676;
+}
 h1 {
   font-family: 'Fjalla One', sans-serif;
   font-size: 34px;
@@ -41,7 +44,6 @@ h2 {
   font-weight: 700;
 }
 h3 {
-  color: #eab676;
   font-size: 16px;
   text-transform: capitalize;;
   font-weight: 500;
