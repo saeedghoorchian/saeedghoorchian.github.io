@@ -115,6 +115,10 @@ a:active {
   background-color: #1B2631;
   color: #FFFFFF;
 } */
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
 
 
 /* main wrapper */
