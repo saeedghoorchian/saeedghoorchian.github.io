@@ -27,7 +27,8 @@ h1 {
   font-size: 24px;
   margin: 0 0 20px;
   color: #30261B;
-  font-family: 'Fjalla One', sans-serif;
+/*  font-family: 'Fjalla One', sans-serif;*/
+  font-family: 'Hind', sans-serif;
   line-height: 1.8em;
   font-weight: 700;
   letter-spacing: .1rem;
@@ -40,7 +41,8 @@ h2 {
   font-weight: 700;
 }
 h3 {
-  font-family: 'Fjalla One', sans-serif;
+/*  font-family: 'Fjalla One', sans-serif;*/
+  font-family: 'Hind', sans-serif;
   color: #30261B;
 /*     #eab676; */
   font-size: 10px;
