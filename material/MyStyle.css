@@ -77,10 +77,10 @@ a:hover {
   color: #1B2631;
   text-decoration: none!important;
 }
-a:active {
+/*a:active {
   color: #76b5c5;
   text-decoration: none!important;
-}
+}*/
 
 /* Navigation bar */
 .topnav {
