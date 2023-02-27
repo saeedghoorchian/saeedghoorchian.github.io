@@ -50,6 +50,10 @@ h3 {
 }
 p {
   margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 2em;
+  color: #EAECEE;
+  font-weight: 500;
 }
 strong {
 /*   color: #eab676;  */
