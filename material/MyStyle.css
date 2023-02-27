@@ -193,11 +193,12 @@ a:active {
   margin: 0;
   padding: 0;
 }
-.header .name li {
+.header li {
   padding-left: 20px; /* with hanging indent */
   text-indent: -20px;
   font-weight: 300;
 }
+
 @media (max-width: 768px) {
   .header {
     padding: 20px 0;
