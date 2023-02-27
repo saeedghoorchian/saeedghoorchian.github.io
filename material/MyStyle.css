@@ -242,7 +242,7 @@ a:hover {
   padding: 0;
   list-style: none;
   font-size: 15px;
-  font-weight: 400; /* News Text */
+  font-weight: 350; /* News Text */
 }
 /*.news li {*/
 /*  padding-left: 20px; /* with hanging indent */*/
