@@ -52,9 +52,9 @@ p {
   font-family: 'Hind', sans-serif;
   margin-bottom: 20px;
   font-size: 15px;
-  line-height: 1.5em;
+/*  line-height: 1em;*/
 /*  color: #EAECEE;*/
-  font-weight: 500;
+  font-weight: 400;
 }
 strong {
 /*   color: #eab676;  */
