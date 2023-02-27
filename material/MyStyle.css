@@ -193,7 +193,6 @@ a:active {
   margin: 0;
   padding: 0;
 }
-
 @media (max-width: 768px) {
   .header {
     padding: 20px 0;
@@ -243,7 +242,7 @@ a:active {
   padding: 0;
   list-style: none;
   font-size: 15px;
-  font-weight: 300; /* News Text */
+  font-weight: 400; /* News Text */
 }
 /*.news li {*/
 /*  padding-left: 20px; /* with hanging indent */*/
