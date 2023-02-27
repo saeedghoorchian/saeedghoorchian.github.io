@@ -253,7 +253,7 @@ a:active {
 .news li {
   padding-left: 20px; /* with hanging indent */
   text-indent: -20px;
-  font-weight: 300; /* News Text */
+  font-weight: 400; /* News Text */
 }
 .news li strong {
   font-weight: 500;
