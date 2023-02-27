@@ -246,7 +246,8 @@ a:active {
   margin: 0;
   padding: 0;
   list-style: none;
-  font-weight: 300;
+  font-size: 15px;
+  font-weight: 300; /* News Text */
 }
 .news li {
   padding-left: 20px; /* with hanging indent */
