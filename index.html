@@ -25,6 +25,201 @@
     <link rel="stylesheet" href="material/MyStyle.css" >
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <style>
+        /* Apple-style modern font and color scheme */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            background: #fafafa !important;
+            color: #1a1a1a !important;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+            color: #1a1a1a !important;
+            font-weight: 600 !important;
+        }
+        
+        p {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+            color: #424242 !important;
+            line-height: 1.6 !important;
+        }
+        
+        a {
+            color: #2563eb !important;
+            text-decoration: none !important;
+            transition: all 0.2s ease;
+            font-weight: 500;
+        }
+        
+        a:hover {
+            color: #1d4ed8 !important;
+            text-decoration: underline !important;
+        }
+        
+        /* Modern navigation */
+        .topnav {
+            background: #ffffff !important;
+            border: 1px solid #e5e7eb !important;
+            border-left: none !important;
+            border-right: none !important;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04) !important;
+            backdrop-filter: blur(10px);
+            width: 100%;
+        }
+        
+        .social-icons-nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 72px;
+            padding: 20px 0;
+            background: rgba(249, 250, 251, 0.8);
+            box-shadow: 
+                0 2px 8px rgba(0, 0, 0, 0.04),
+                inset 0 1px 0 rgba(255, 255, 255, 0.8);
+            border-top: 1px solid rgba(226, 232, 240, 0.6);
+            border-bottom: 1px solid rgba(226, 232, 240, 0.6);
+        }
+        
+        .social-icons-nav a {
+            color: #6b7280 !important;
+            font-size: 28px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            align-items: center;
+            padding: 8px;
+            border-radius: 8px;
+        }
+        
+        .social-icons-nav a:hover {
+            color: #2563eb !important;
+            transform: translateY(-3px) scale(1.1);
+            background: rgba(37, 99, 235, 0.05);
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.15);
+        }
+        
+        /* Section styling */
+        .section {
+            padding: 40px 0 !important;
+        }
+        
+        .section-title h2 {
+            color: #1e40af !important;
+            font-size: 28px !important;
+            font-weight: 600 !important;
+            letter-spacing: -0.5px !important;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 40%, #2563eb 100%) !important;
+            border-radius: 20px;
+            padding: 52px;
+            margin-bottom: 36px;
+            box-shadow: 
+                0 25px 60px rgba(30, 58, 138, 0.25),
+                0 10px 25px rgba(30, 64, 175, 0.2),
+                inset 0 1px 0 rgba(255,255,255,0.1);
+            color: #ffffff !important;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: linear-gradient(135deg, rgba(30, 58, 138, 0.3) 0%, rgba(37, 99, 235, 0.1) 100%);
+            pointer-events: none;
+        }
+        
+        .header::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(
+                45deg,
+                transparent 30%,
+                rgba(255, 255, 255, 0.03) 50%,
+                transparent 70%
+            );
+            pointer-events: none;
+            animation: shimmer 8s infinite;
+        }
+        
+        @keyframes shimmer {
+            0%, 100% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+            50% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+        }
+        
+        .header h1 {
+            color: #ffffff !important;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .header p {
+            color: rgba(255, 255, 255, 0.95) !important;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .header .profile {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .news.section {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 44px !important;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05), 0 1px 3px rgba(0,0,0,0.03);
+            border: 1px solid rgba(0,0,0,0.04);
+        }
+        
+        .news ul li {
+            border-bottom: 1px solid #f3f4f6;
+            padding: 18px 0;
+            transition: all 0.2s ease;
+            margin-left: 0;
+        }
+        
+        .news ul li:hover {
+            padding-left: 12px !important;
+            margin-left: 0 !important;
+            background: linear-gradient(90deg, rgba(37, 99, 235, 0.02) 0%, transparent 100%);
+        }
+        
+        .news ul li.older-news {
+            padding: 18px 0;
+            transition: all 0.2s ease;
+        }
+        
+        .news ul li.older-news:hover {
+            padding-left: 12px !important;
+            background: linear-gradient(90deg, rgba(37, 99, 235, 0.02) 0%, transparent 100%);
+        }
+        
+        .news ul li:last-child {
+            border-bottom: none;
+        }
+        
+        .news ul li strong {
+            color: #1e40af !important;
+            font-weight: 600 !important;
+            font-size: 15px;
+        }
+    </style>
 
     
     
@@ -33,52 +228,36 @@
 <!-- Body -->
 <body>
     
-<section class="topnav section">
+<!-- Skip to main content for accessibility -->
+<a href="#main-content" class="skip-link" style="position: absolute; top: -40px; left: 0; background: #000; color: #fff; padding: 8px; z-index: 100;">Skip to main content</a>
+
+<!-- Navigation with Social Icons -->
+<nav class="topnav section" aria-label="Social media links">
     <div class="container">
-<!-- <div class="topnav"> -->
-        <div class="row">
-            
-<!--             <div class="col-md-1"> -->
-                <address>
-<!--                 <div class="icons"> -->
-                <ul class="icons">
-        <!--          <li><a href="https://www.twitter.com/saeedghoorchian" alt="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> -->
-            <li><a href="https://scholar.google.com/citations?user=Ro-q7woAAAAJ&hl=en" alt="Google Scholar" target="_blank"><i class="ai ai-google-scholar" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/saeed-ghoorchian/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a href="https://github.com/saeedghoorchian" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                </ul>
-                </address>
-<!--              <a href="blog/blog_saeed.html" target="_blank">Blog</a> -->
-<!--                 </div> -->
-<!--            </div> -->
-<!-- </div> -->
+        <div class="social-icons-nav">
+            <a href="https://scholar.google.com/citations?user=Ro-q7woAAAAJ&hl=en" aria-label="Google Scholar profile" target="_blank" rel="noopener noreferrer">
+                <i class="ai ai-google-scholar" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/saeed-ghoorchian/" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/saeedghoorchian" aria-label="GitHub profile" target="_blank" rel="noopener noreferrer">
+                <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
         </div>
     </div>
-</section>
-    
-<!-- <section class="topnav-right section">
-    <div class="container">
-        <div class="row">
-            <a href="blog/blog_saeed.html" target="_blank">Blog</a>
-        </div>       
-    </div>
-</section> -->
-<!--         <div class="topnav-right"> -->
-<!--             <a href="#search">Search</a> -->
-<!--             <a href="blog/blog_saeed.html" target="_blank">Blog</a> -->
-<!--             <p style="font-size:16px;"><a href="blog/blog_saeed.html" target="_blank">Personal Blog</a> -->
-<!--         </div> -->
+</nav>
    
-<div id="main-wrapper">
+<main id="main-content">
 
 <!-- profile -->
-<header class="header">
+<header class="header" id="about">
     <div class="container">
         <div class="row">
           
             <div class="col-md-3">
                 <div class="profile">
-                    <img src="material/pic_saeed.jpeg" width="200" height="200" alt="Saeed Ghoorchian Image"/>
+                    <img src="material/pic_saeed.jpeg" width="200" height="200" alt="Saeed Ghoorchian"/>
                     &nbsp;&nbsp;&nbsp;&nbsp;
                 </div>
             </div>
@@ -89,56 +268,23 @@
 <!--                     <h4>About</h4> -->
                 <p align="justify">
                     
-                    I am a machine learning scientist at SAP.
+                    I am an AI scientist at SAP.
                     
-                    During 2023-2024, I held postdoctoral positions at the University of Tübingen and Ruhr-University Bochum, and worked as an AI researcher at SAP Signavio.
+                    During 2023-2024, I held postdoctoral positions at the University of Tübingen and Ruhr-University Bochum, and worked as an AI scientist at SAP.
 
                     In 2023, I received a Ph.D. from the University of Tübingen. 
 
                     During 2017-2022, I worked as research assistant at the Technical University of Berlin and the Technical University of Hamburg. 
                     
-                    My research interests include reinforcement learning, imitation learning, representation learning, and causality in LLMs. </li>
+                    My research interests include reinforcement learning, imitation learning, representation learning, and causality in LLMs.
                 </p>
-<!--                 <p align="justify">
-                    
-                    My research focuses mainly on building machine learning methods to solve online decision-making problems under uncertainty.
-                    To achieve this, I have worked on developing decision-making algorithms capable of learning the optimal action and feature observations in non-stationary environments with causal dependencies. 
-
-                    Most existing machine learning methods, particularly in the era of big data, postulate the possibility of information acquisition with no limit and for free. This leads to deploying models that require observing all features' states before predicting a class label. In real-world problems, however, collecting beneficial information is often costly. For example, in online advertising problems, the advertiser can purchase information about target users to display personalized ads. As another example, in medical contexts, obtaining data for treatment recommendations mainly requires additional tests that are time- and money-consuming. How to maximize the model performance while keeping the cost of feature observations as low as possible? What if the reward distribution and features' cost distribution vary over time? Such cases frequently appear in real-world problems; for example, in personalized news recommendations, user preferences over news can change over time and exhibit various seasonality patterns. Hence, we need novel learning methods that, besides individual actions' rewards, learn the observations of the features' states and are robust to distribution shifts in the deployed environment.
-                </p>
-
-                <p align="justify">
-                    Now, what if there are causal dependencies among actions' outcomes? A real-world example of this situation is the Covid-19 development within a country. During the Covid-19 pandemic, containing the virus outbreak has been one of the major concerns of governments. To this end, health authorities attempt to monitor the outbreak and detect the regions likely to become coronavirus hotspots. It is only natural that health authorities seek to find the regions that contribute the most to the total number of daily new cases in the country. Due to mobility between geographical areas, causal relations exist amongst total daily new cases (rewards) of regions (actions). How can the optimal candidate regions be detected for political interventions while dealing with statistical dependencies? 
-                </p>
-
-                <p align="justify">
-                    My research during my PhD addresses the questions mentioned above and the like. 
-                    
-                    During my postdoc, I was doing research at the intersection of imitation learning, active learning, and inverse reinforcement learning, to design machine learning methods for explaining sequential decision-making based on demonstrated behavior by a sub-optimal learner.
-                </p>
-
-                <p align="justify"> 
-                    Prior to my PhD, I completed my master studies in Mathematical Modelling in engineering within an Erasmus Mundus international joint master program at University of Hamburg and obtained a bachelor’s degree in Mathematics from Iran University of Science and Technology.
-                </p>
-        
-                <h4>Research Interests</h4>
-            <p>
-            <ul>
-
-                <li>Reinforcement Learning</li>
-                <li>Imitation Learning</li>
-                <li>Causality in Large Language Models</li>
-                <li>Generative AI</li>
-                <li>(Online) Recommender Systems</li>
-            </ul>
-            </p>  -->
             </div>
         </div>
     </div>
 </header>
 
 <!-- news -->
-<section class="news section">
+<section class="news section" id="news">
     <div class="container">
         <div class="row">
             <div class="col-md-3">
@@ -150,48 +296,26 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <ul>
-                        <li><strong> March, 2026</strong> </li>
-                        Our paper <a href="https://openreview.net/forum?id=mtVbdewtQ8&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2026%2FWorkshop%2FDATA-FM%2FAuthors%23your-submissions)" target="_blank">'Unified Evaluation of Table Embedding Methods Across Multiple Benchmark Scenarios'</a>, has been accepted for publication at the ICLR 2026 DATA-FM workshop.
-                        <li><strong> July, 2025</strong> </li>
-                        Our paper <a href="https://ebooks.iospress.nl/volumearticle/76087" target="_blank">'Robust Inverse Reinforcement Learning under State Adversarial Perturbations'</a>, has been accepted for publication at the 28th European Conference on Artificial Intelligence (ECAI).
-                        <li><strong> April, 2025</strong> </li>
-                        Our paper <a href="https://ieeexplore.ieee.org/document/10902019" target="_blank">'Non-Stationary Delayed Combinatorial Semi-Bandit With Causally Related Rewards'</a>, is out in the IEEE Open Journal of Signal Processing. 
-                        <li><strong> March, 2025</strong> </li>
-                        A preprint of our recent paper, "Quantum-Inspired Reinforcement Learning in the Presence of Epistemic Ambivalence", is available <a href="https://arxiv.org/pdf/2503.04219" target="_blank">'here'</a>.
-                        <li><strong> June, 2024</strong> </li>
-                          I’m starting a new position as Machine Learning Scientist at SAP.
-                        <li><strong> April, 2024</strong> </li>
-                          Our paper <a href="https://ieeexplore.ieee.org/document/10502231" target="_blank">'Contextual Multi-Armed Bandit with Costly Feature Observation in Non-stationary Environments'</a>, has been accepted for publication at the IEEE Open Journal of Signal Processing. 
-                        <li><strong> March, 2024</strong> </li>
-                          Our paper <a href="https://ieeexplore.ieee.org/document/10494875" target="_blank">'Non-stationary Linear Bandits with Dimensionality Reduction for Large-Scale Recommender Systems'</a>, has been accepted for publication at the IEEE Open Journal of Signal Processing. 
-<!--                         <li><strong> February 16, 2024</strong> </li>
-                          I started a research fellowship at the Ruhr-University Bochum.  -->
-                        <li><strong> August, 2023</strong> </li>
-                          I joined SAP as a visiting researcher.
-                         <li><strong> April, 2023</strong> </li>
-                          I successfully defended my PhD thesis titled <a href="https://publikationen.uni-tuebingen.de/xmlui/handle/10900/152080;jsessionid=F251CE10A907AE0205A59BF0FA3A6885" target="_blank">'Online Learning under Partial Feedback'</a> with magna cum laude. 🎉
-                          <li><strong> September, 2022</strong> </li>
-                            I will be Teaching Assistant for the course <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/decision-making/teaching/teaching-modules/" target="_blank">Introduction to Game Theory with Application in Multi-Agent Systems</a> 
-                            during the winter semester at the University of Tübingen.
-<!--                           <li><strong>July 28, 2022</strong> </li>
-                            Presented our paper at the university of Tübingen. -->
-                          <li><strong>July, 2022</strong> </li>
-                            Presented our accepted paper at <a href="https://ijcai-22.org/" target="_blank">IJCAI 2022</a> in Vienna.
-                          <li><strong>June, 2022</strong> </li>
-                            Joined the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/decision-making/team/" target="_blank">Decision Making group</a> 
-                            at the University of Tübingen as a research assistant.
-                          <li><strong>May, 2022</strong> </li>
-                            Starting a freelance consultant position at <a href="https://www.datalyze-solutions.com/" target="_blank">Datalyze Solutions GmbH</a>, Germany.
-<!--                             I will focus on developing algorithms for long-term task planning in changing environments. -->
-                          <li><strong>April, 2022</strong> </li>
-                            Our paper <a href="https://doi.org/10.24963/ijcai.2022/676" target="_blank">"Linear Combinatorial Semi-Bandit with Causally Related Rewards"</a>
-                            has been accepted for publication at the 31st International Joint Conference on Artificial Intelligence (IJCAI). 
-                          <li><strong>November, 2021</strong> </li>
-                          Excited to serve students as Teaching Assistant at the University of Tübingen.
-                          <li><strong>September, 2021</strong> </li>
-                            Our paper <a href="https://doi.org/10.1109/TSC.2021.3113002" target="_blank">"Data-Driven Online Recommender Systems with Costly Information Acquisition"</a> 
-                            has been accepted for publication at the IEEE Transactions on Services Computing (TSC).
+                        <li><strong>March, 2026</strong> — Our paper <a href="https://openreview.net/forum?id=mtVbdewtQ8&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2026%2FWorkshop%2FDATA-FM%2FAuthors%23your-submissions)" target="_blank">'Unified Evaluation of Table Embedding Methods Across Multiple Benchmark Scenarios'</a>, has been accepted for publication at the ICLR 2026 DATA-FM workshop.</li>
+                        <li><strong>July, 2025</strong> — Our paper <a href="https://ebooks.iospress.nl/volumearticle/76087" target="_blank">'Robust Inverse Reinforcement Learning under State Adversarial Perturbations'</a>, has been accepted for publication at the 28th European Conference on Artificial Intelligence (ECAI).</li>
+                        <li><strong>April, 2025</strong> — Our paper <a href="https://ieeexplore.ieee.org/document/10902019" target="_blank">'Non-Stationary Delayed Combinatorial Semi-Bandit With Causally Related Rewards'</a>, is out in the IEEE Open Journal of Signal Processing.</li>
+                        <li><strong>March, 2025</strong> — A preprint of our recent paper, <a href="https://arxiv.org/pdf/2503.04219" target="_blank">'Quantum-Inspired Reinforcement Learning in the Presence of Epistemic Ambivalence'</a>, is out.</li>
+                        <li><strong>June, 2024</strong> — I'm starting a new position as AI Scientist at SAP.</li>
+                        <li class="older-news" style="display: none;"><strong>April, 2024</strong> — Our paper <a href="https://ieeexplore.ieee.org/document/10502231" target="_blank">'Contextual Multi-Armed Bandit with Costly Feature Observation in Non-stationary Environments'</a>, has been accepted for publication at the IEEE Open Journal of Signal Processing.</li>
+                        <li class="older-news" style="display: none;"><strong>March, 2024</strong> — Our paper <a href="https://ieeexplore.ieee.org/document/10494875" target="_blank">'Non-stationary Linear Bandits with Dimensionality Reduction for Large-Scale Recommender Systems'</a>, has been accepted for publication at the IEEE Open Journal of Signal Processing.</li>
+                        <li class="older-news" style="display: none;"><strong>August, 2023</strong> — I joined SAP as a visiting researcher.</li>
+                        <li class="older-news" style="display: none;"><strong>April, 2023</strong> — I successfully defended my PhD thesis titled <a href="https://publikationen.uni-tuebingen.de/xmlui/handle/10900/152080" target="_blank">'Online Learning under Partial Feedback'</a> with magna cum laude. 🎉</li>
+                        <li class="older-news" style="display: none;"><strong>September, 2022</strong> — I will be Teaching Assistant for the course <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/decision-making/teaching/teaching-modules/" target="_blank">Introduction to Game Theory with Application in Multi-Agent Systems</a> during the winter semester at the University of Tübingen.</li>
+                        <li class="older-news" style="display: none;"><strong>July, 2022</strong> — Presented our accepted paper at <a href="https://ijcai-22.org/" target="_blank">IJCAI 2022</a> in Vienna.</li>
+                        <li class="older-news" style="display: none;"><strong>June, 2022</strong> — Joined the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/decision-making/team/" target="_blank">Decision Making group</a> at the University of Tübingen as a research assistant.</li>
+                        <li class="older-news" style="display: none;"><strong>April, 2022</strong> — Our paper <a href="https://doi.org/10.24963/ijcai.2022/676" target="_blank">"Linear Combinatorial Semi-Bandit with Causally Related Rewards"</a> has been accepted for publication at the 31st International Joint Conference on Artificial Intelligence (IJCAI).</li>
+                        <li class="older-news" style="display: none;"><strong>November, 2021</strong> — Excited to serve students as Teaching Assistant at the University of Tübingen.</li>
+                        <li class="older-news" style="display: none;"><strong>September, 2021</strong> — Our paper <a href="https://doi.org/10.1109/TSC.2021.3113002" target="_blank">"Data-Driven Online Recommender Systems with Costly Information Acquisition"</a> has been accepted for publication at the IEEE Transactions on Services Computing (TSC).</li>
+                        <li class="older-news" style="display: none;"><strong>July, 2020</strong> — Our paper <a href="https://doi.org/10.1109/TCCN.2020.3012445" target="_blank">"Multi-Armed Bandit for Energy-Efficient and Delay-Sensitive Edge Computing in Dynamic Networks With Uncertainty"</a> has been accepted for publication at the IEEE Transactions on Cognitive Communications and Networking (TCCN).</li>
                         </ul>
+                        <div style="text-align: center; margin-top: 15px;">
+                            <button id="show-more-btn" onclick="toggleOlderNews()" style="background: transparent; color: #2563eb; border: 1px solid #2563eb; padding: 8px 24px; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 500; transition: all 0.2s;" onmouseover="this.style.background='#2563eb'; this.style.color='#fff'" onmouseout="this.style.background='transparent'; this.style.color='#2563eb'">Show More</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -199,8 +323,22 @@
     </div>
 </section>
 
+<script>
+function toggleOlderNews() {
+    const olderNews = document.querySelectorAll('.older-news');
+    const btn = document.getElementById('show-more-btn');
+    const isHidden = olderNews[0].style.display === 'none';
+    
+    olderNews.forEach(item => {
+        item.style.display = isHidden ? 'list-item' : 'none';
+    });
+    
+    btn.textContent = isHidden ? 'Show Less' : 'Show More';
+}
+</script>
+
 <!-- publications -->
-<section class="projects section">
+<section class="projects section" id="publications" style="display: none;">
     <div class="container">
         <div class="row">
             <div class="col-md-3">
@@ -211,56 +349,55 @@
             <div class="col-md-9">
                 <div class="row">
                     <div class="col-sm-12">
-<!--                         <p>* denotes equal contribution</p> -->
 
-                        <div class="projects-item">
-                            <p class="title"><a href="https://ieeexplore.ieee.org/abstract/document/9151218/" target="_blank"><strong>Multi-Armed Bandit for Energy-Efficient and Delay-Sensitive Edge Computing in Dynamic Networks with Uncertainty</strong></a> 
+                        <article class="projects-item">
+                            <h3 class="title"><a href="https://ieeexplore.ieee.org/abstract/document/9151218/" target="_blank"><strong>Multi-Armed Bandit for Energy-Efficient and Delay-Sensitive Edge Computing in Dynamic Networks with Uncertainty</strong></a> 
                             <p>Saeed Ghoorchian and Setareh Maghsudi</p>
                             <p><em>IEEE Transactions on Cognitive Communications and Networking (TCCN)</em>, 2020</p> 
-                        </div>
+                        </article>
 
-                        <div class="projects-item">
-                            <p class="title"><a href="https://doi.org/10.1109/TSC.2021.3113002" target="_blank"><strong>Data-Driven Online Recommender Systems with Costly Information Acquisition</strong></a> 
+                        <article class="projects-item">
+                            <h3 class="title"><a href="https://doi.org/10.1109/TSC.2021.3113002" target="_blank"><strong>Data-Driven Online Recommender Systems with Costly Information Acquisition</strong></a> 
                             <p>Onur Atan, Saeed Ghoorchian, Setareh Maghsudi, and Mihaela van der Schaar</p>
                             <p><em>IEEE Transactions on Services Computing (TSC)</em>, 2021</p>
-                        </div>
+                        </article>
                         
-                        <div class="projects-item">
-                            <p class="title"><a href="https://doi.org/10.24963/ijcai.2022/676" target="_blank"><strong>Linear Combinatorial Semi-Bandit with Causally Related Rewards</strong></a> 
+                        <article class="projects-item">
+                            <h3 class="title"><a href="https://doi.org/10.24963/ijcai.2022/676" target="_blank"><strong>Linear Combinatorial Semi-Bandit with Causally Related Rewards</strong></a> 
                             <p>Behzad Nourani-Koliji*, Saeed Ghoorchian*, and Setareh Maghsudi.</p>
                             <p><em>International Joint Conference on Artificial Intelligence (IJCAI)</em>, 2022</p>
-                        </div>
+                        </article>
     
-                        <div class="projects-item">
+                        <article class="projects-item">
 
-                            <p class="title"><a href="https://doi.org/10.48550/arXiv.2202.03167" target="_blank"><strong>Bayesian Non-stationary Linear Bandits for Large-Scale Recommender Systems</strong></a>
+                            <h3 class="title"><a href="https://doi.org/10.48550/arXiv.2202.03167" target="_blank"><strong>Bayesian Non-stationary Linear Bandits for Large-Scale Recommender Systems</strong></a>
                             <p>Saeed Ghoorchian, Evgenii Kortukov, and Setareh Maghsudi</p>
                             <p><em>IEEE Open Journal of Signal Processing (OJSP)</em>, 2024</p>
-                        </div>
+                        </article>
                         
-                        <div class="projects-item">
-                            <p class="title"><a href="https://doi.org/10.48550/arXiv.2307.09388" target="_blank"><strong>Online Learning with Costly Features in Non-stationary Environments</strong></a>
+                        <article class="projects-item">
+                            <h3 class="title"><a href="https://doi.org/10.48550/arXiv.2307.09388" target="_blank"><strong>Online Learning with Costly Features in Non-stationary Environments</strong></a>
                             <p>Saeed Ghoorchian, Evgenii Kortukov, and Setareh Maghsudi</p>
                             <p><em>IEEE Open Journal of Signal Processing (OJSP)</em>, 2024</p>
-                        </div>
+                        </article>
                         
-                         <div class="projects-item">
-                            <p class="title"><a href="https://doi.org/10.48550/arXiv.2307.09093" target="_blank"><strong>Non-Stationary Delayed Combinatorial Semi-Bandit With Causally Related Rewards</strong></a>
+                         <article class="projects-item">
+                            <h3 class="title"><a href="https://doi.org/10.48550/arXiv.2307.09093" target="_blank"><strong>Non-Stationary Delayed Combinatorial Semi-Bandit With Causally Related Rewards</strong></a>
                             <p>Saeed Ghoorchian, Steven Bilaj, and Setareh Maghsudi</p>
                             <p><em>IEEE Open Journal of Signal Processing (OJSP)</em>, 2025</p>
-                        </div>
+                        </article>
 
-                        <div class="projects-item">
-                            <p class="title"><a href="https://ebooks.iospress.nl/volumearticle/76087" target="_blank"><strong>Robust Inverse Reinforcement Learning under State Adversarial Perturbations</strong></a>
+                        <article class="projects-item">
+                            <h3 class="title"><a href="https://ebooks.iospress.nl/volumearticle/76087" target="_blank"><strong>Robust Inverse Reinforcement Learning under State Adversarial Perturbations</strong></a>
                             <p>Mine Melodi Caliskan, Saeed Ghoorchian, and Setareh Maghsudi</p>
                             <p><em>European Conference on Artificial Intelligence (ECAI)</em>, 2025</p>
-                        </div>
+                        </article>
 
-                        <div class="projects-item">
-                            <p class="title"><a href="https://arxiv.org/pdf/2503.04219" target="_blank"><strong>Quantum-Inspired Reinforcement Learning in the Presence of Epistemic Ambivalence</strong></a> 
+                        <article class="projects-item">
+                            <h3 class="title"><a href="https://arxiv.org/pdf/2503.04219" target="_blank"><strong>Quantum-Inspired Reinforcement Learning in the Presence of Epistemic Ambivalence</strong></a> 
                             <p>Alireza Habibi*, Saeed Ghoorchian*, and Setareh Maghsudi</p>
-                            <p><em>Under review</em>, 2025</p>
-                        </div>
+                            <p><em>Preprint</em>, 2025</p>
+                        </article>
 
                     </div>
                 </div>
@@ -268,38 +405,15 @@
         </div>
     </div>
 </section>
-    
 
-<!-- publications -->
-<!-- <section class="projects section">
+</main>
+
+<!-- Footer -->
+<footer class="section" style="text-align: center; padding: 20px 0;">
     <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="section-title">
-                    <h2>Projects</h2>
-                </div>
-            </div>
-            <div class="col-md-9">
-                <div class="row">
-                    <div class="col-sm-12">
-
-                        <div class="projects-item">
-                            <p class="title"><strong>Real-Time Task Planning in Changing Environments</strong></a> 
-                        </div>
-
-                        <div class="projects-item">
-                            <p class="title"><a href="https://doi.org/10.1109/TSC.2021.3113002" target="_blank"><strong>Kernelized Principal Component Analysis and Support Vector Machines for Modelling Systems of High Complexity</strong></a> 
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
+        <p>&copy; 2026 Saeed Ghoorchian</p>
     </div>
-</section> -->
-
-
-</div>
+</footer>
 
 </body>
 
